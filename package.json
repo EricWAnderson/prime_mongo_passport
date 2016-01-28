@@ -1,0 +1,31 @@
+{
+  "name": "mongo-db-passport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
+  },
+  "author": "Eric Anderson",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.9",
+    "angular-route": "^1.4.9",
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.14.2",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "mongoose": "^4.3.7",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

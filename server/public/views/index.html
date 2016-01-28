@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Mongo + Passport</title>
+
+    <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/styles/style.css" rel="stylesheet" />
+
+    <script src="vendor/angular/angular.min.js" type="text/javascript"></script>
+    <script src="vendor/angular-route/angular-route.min.js" type="text/javascript"></script>
+    <script src="assets/scripts/client.min.js" type="text/javascript"></script>
+</head>
+<body ng-controller="myController">
+
+<h1>Please login</h1>
+
+<form action="/" method="post">
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id='username' />
+    </div>
+    <div>
+        <label for="username">Password:</label>
+        <input type="password" name="password" id="username" />
+    </div>
+    <div>
+        <input type="submit" value="Log In" /><a href="/register">Register</a>
+    </div>
+</form>
+
+</body>
+</html>
